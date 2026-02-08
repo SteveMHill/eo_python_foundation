@@ -1,0 +1,25 @@
+# Virtual environments
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Jupyter
+*.ipynb_checkpoints/
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# Linters / tools
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Notebook outputs (generated at runtime)
+outputs/
+
+# Build / temp logs
+scripts/*.log
+scripts/*.txt

@@ -1,0 +1,31 @@
+# EO Python Foundations — Python dependencies
+# Install: python -m pip install -r requirements.txt
+
+# --- Jupyter runtime ---
+jupyterlab
+ipykernel
+
+# --- Core (NB 01–02) ---
+numpy
+pandas
+matplotlib
+
+# --- xarray (NB 03, 05, A1, A2) ---
+xarray
+netcdf4          # xarray NetCDF backend
+
+# --- STAC (NB 04–05) ---
+pystac-client
+planetary-computer
+
+# --- Raster / geospatial (NB 04, 05, A1, A2) ---
+rioxarray        # xarray + rasterio integration
+rasterio
+stackstac        # STAC → xarray in one step
+
+# --- Vector (A1) ---
+geopandas
+
+# --- Parallel / out-of-core (A2, optional) ---
+dask[distributed]
+dask-jobqueue
